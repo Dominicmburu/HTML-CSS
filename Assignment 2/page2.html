@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/page.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/—Pngtree—creative logo_947953.png" alt="logo" class="logo">
+        </div>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <a href="#">Help</a>
+        </nav>
+        <div class="account-info">
+            <a href="#">Account ▼</a>
+            <i style="padding: 0 12px;" class="fa-solid fa-lock"></i>
+            <a href="#">3 items</a>
+            <img src="./images/profile.jpg" alt="user" class="logo">
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="account-section">
+
+            <div class="progress-bar">
+                <a href="#" class="active"><span style="color: blue;">Account</span></a><span style="color: blue;">—</span> <i class="fa-solid fa-circle-check"></i><span style="color: blue;"> — </span><a href="#">Shipping</a><span style="color: blue;">—</span> <i class="fa-solid fa-circle-check"></i> <span style="color: blue;">—</span> <a href="#">Payment</a>
+            </div>
+
+            <div class="account-details">
+                <h2>Account details</h2>
+                <form>
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" placeholder="Email@myemail.com">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="">
+                    <div class="form-buttons">
+                        <button type="button" class="register-button">Register for account</button>
+                        <button type="button" class="login-button">Login</button>
+                    </div>
+                </form>
+                <div class="order-buttons">
+                    <button type="button" class="cancel-button">Cancel order</button>
+                    <button type="button" class="shipping-button">Shipping details</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="product-summary">
+                <img src="./images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="Sony wireless headphones">
+                <div class="product-details">
+                    <div class="row">
+                        <p>Sony wireless headphones</p>
+                        <div class="quantity-controls">
+                            <button class="minus">−</button>
+                            <span>1</span>
+                            <button class="plus">+</button>
+                        </div>
+                    </div>
+                    <p class="price">£320.45</p>
+                </div>
+            </div>
+            <div class="discount">
+                <p>Gift Card / Discount code</p>
+                <div class="discount-code">
+                    <input type="text" placeholder="">
+                    <button class="apply-button">Apply</button>
+                </div>
+            </div>
+            <div class="price-summary">
+                <div class="summary-line"><span>Sub total</span><span>£316.55</span></div>
+                <div class="summary-line"><span>Tax</span><span>£3.45</span></div>
+                <div class="summary-line"><span>Shipping</span><span style="color: blue;">Free</span></div>
+                <div class="summary-total"><span>Total</span><span>£320.45</span></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
