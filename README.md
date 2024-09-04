@@ -1,3 +1,3 @@
 # HTML - CSS
 ## ASSIGNMENT 1
-![s1](https://github.com/user-attachments/assets/0cbb4cf3-243a-4039-8813-caf8b6acc934)
+![s1](https://github.com/user-attachments/assets/f134c445-00f2-41b4-8206-2368f4876dfb)
