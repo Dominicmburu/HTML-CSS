@@ -11,6 +11,7 @@ body {
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
     gap: 20px;
     width: 80%;
     max-width: 1200px;
@@ -36,6 +37,11 @@ body {
 .purple {
     background-color: #6c63ff;
     grid-column: span 2;
+    z-index: 1;
+    background-image: url("../images/bg-pattern-quotation.svg");
+    background-position: 80% 0;
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
 }
 
 .gray {
@@ -96,5 +102,7 @@ body {
 
     .purple, .black {
         grid-column: span 1;
+        background-position: 80% 0;
+        background-size: 80px 80px;
     }
 }
